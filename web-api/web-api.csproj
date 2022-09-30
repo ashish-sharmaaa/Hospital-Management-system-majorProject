@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>web_api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\web-api.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\web-api.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\web-api.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\web-api.deps.json" />
+    <Content Include="bin\Debug\net6.0\web-api.runtimeconfig.json" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net6.0\web-api.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\web-api.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\web-api.dll" />
+    <None Include="bin\Debug\net6.0\web-api.exe" />
+    <None Include="bin\Debug\net6.0\web-api.pdb" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\refint\web-api.dll" />
+    <None Include="obj\Debug\net6.0\ref\web-api.dll" />
+    <None Include="obj\Debug\net6.0\web-api.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\web-api.assets.cache" />
+    <None Include="obj\Debug\net6.0\web-api.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\web-api.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\web-api.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\web-api.dll" />
+    <None Include="obj\Debug\net6.0\web-api.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\web-api.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\web-api.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\web-api.pdb" />
+    <None Include="obj\Debug\net6.0\web-api.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\_IsIncrementalBuild" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\staticwebassets.pack.sentinel" />
+    <None Include="obj\web-api.csproj.nuget.g.props" />
+    <None Include="obj\web-api.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
+  </ItemGroup>
+
+</Project>
